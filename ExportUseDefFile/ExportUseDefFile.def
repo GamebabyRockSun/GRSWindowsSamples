@@ -1,0 +1,5 @@
+LIBRARY	"ExportUseDefFile"
+EXPORTS
+	Func_A @1
+	Func_B @2
+	Func_C @3

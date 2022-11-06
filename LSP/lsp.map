@@ -1,0 +1,295 @@
+ lsp
+
+ Timestamp is 3bc7204e (Fri Oct 12 09:54:38 2001)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00007706H .text                   CODE
+ 0002:00000000 00000124H .idata$5                DATA
+ 0002:00000130 00000044H .rdata                  DATA
+ 0002:00000174 00000081H .rdata$debug            DATA
+ 0002:000001f8 00000004H .rtc$IAA                DATA
+ 0002:000001fc 00000004H .rtc$IZZ                DATA
+ 0002:00000200 00000004H .rtc$TAA                DATA
+ 0002:00000204 00000004H .rtc$TZZ                DATA
+ 0002:00000208 00000064H .idata$2                DATA
+ 0002:0000026c 00000014H .idata$3                DATA
+ 0002:00000280 00000124H .idata$4                DATA
+ 0002:000003a4 000004bcH .idata$6                DATA
+ 0002:00000860 00000045H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 000016e0H .data                   DATA
+ 0003:000016f0 000005dcH .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0001:00000000       ?dbgprint@@YAXPADZZ        10001000 f   spi.obj
+ 0001:0000008d       ?PrintProcTable@@YAXPAU_WSPPROC_TABLE@@@Z 1000108d f   spi.obj
+ 0001:00000092       ?VerifyProcTable@@YAHPAU_WSPPROC_TABLE@@@Z 10001092 f   spi.obj
+ 0001:000001eb       _DllMain@12                100011eb f   spi.obj
+ 0001:000002c5       ?WSPAccept@@YGIIPAUsockaddr@@PAHP6GHPAU_WSABUF@@2PAU_QualityOfService@@322PAIK@ZK1@Z 100012c5 f   spi.obj
+ 0001:0000040c       ?WSPAddressToString@@YGHPAUsockaddr@@KPAU_WSAPROTOCOL_INFOW@@PAGPAKPAH@Z 1000140c f   spi.obj
+ 0001:0000058d       ?WSPAsyncSelect@@YGHIPAUHWND__@@IJPAH@Z 1000158d f   spi.obj
+ 0001:000006c4       ?WSPBind@@YGHIPBUsockaddr@@HPAH@Z 100016c4 f   spi.obj
+ 0001:0000078d       ?WSPCancelBlockingCall@@YGHPAH@Z 1000178d f   spi.obj
+ 0001:000007cf       ?WSPCleanup@@YGHPAH@Z      100017cf f   spi.obj
+ 0001:00000892       ?WSPCloseSocket@@YGHIPAH@Z 10001892 f   spi.obj
+ 0001:00000ad4       ?WSPConnect@@YGHIPBUsockaddr@@HPAU_WSABUF@@1PAU_QualityOfService@@2PAH@Z 10001ad4 f   spi.obj
+ 0001:00000bae       ?WSPDuplicateSocket@@YGHIKPAU_WSAPROTOCOL_INFOW@@PAH@Z 10001bae f   spi.obj
+ 0001:00000cbb       ?WSPEnumNetworkEvents@@YGHIPAXPAU_WSANETWORKEVENTS@@PAH@Z 10001cbb f   spi.obj
+ 0001:00000d84       ?WSPEventSelect@@YGHIPAXJPAH@Z 10001d84 f   spi.obj
+ 0001:00000e4d       ?WSPGetOverlappedResult@@YGHIPAU_OVERLAPPED@@PAKH1PAH@Z 10001e4d f   spi.obj
+ 0001:00000f18       ?WSPGetPeerName@@YGHIPAUsockaddr@@PAH1@Z 10001f18 f   spi.obj
+ 0001:00000fe1       ?WSPGetSockName@@YGHIPAUsockaddr@@PAH1@Z 10001fe1 f   spi.obj
+ 0001:000010aa       ?WSPGetSockOpt@@YGHIHHPADPAH1@Z 100020aa f   spi.obj
+ 0001:00001253       ?WSPGetQOSByName@@YGHIPAU_WSABUF@@PAU_QualityOfService@@PAH@Z 10002253 f   spi.obj
+ 0001:0000131c       ?WSPIoctl@@YGHIKPAXK0KPAKPAU_OVERLAPPED@@P6GXKK2K@ZPAU_WSATHREADID@@PAH@Z 1000231c f   spi.obj
+ 0001:00001d7d       ?WSPJoinLeaf@@YGIIPBUsockaddr@@HPAU_WSABUF@@1PAU_QualityOfService@@2KPAH@Z 10002d7d f   spi.obj
+ 0001:00001f27       ?WSPListen@@YGHIHPAH@Z     10002f27 f   spi.obj
+ 0001:00001fea       ?WSPRecv@@YGHIPAU_WSABUF@@KPAK1PAU_OVERLAPPED@@P6GXKK2K@ZPAU_WSATHREADID@@PAH@Z 10002fea f   spi.obj
+ 0001:0000222b       ?WSPRecvDisconnect@@YGHIPAU_WSABUF@@PAH@Z 1000322b f   spi.obj
+ 0001:000022ee       ?WSPRecvFrom@@YGHIPAU_WSABUF@@KPAK1PAUsockaddr@@PAHPAU_OVERLAPPED@@P6GXKK4K@ZPAU_WSATHREADID@@3@Z 100032ee f   spi.obj
+ 0001:0000254a       ?WSPSelect@@YGHHPAUfd_set@@00PBUtimeval@@PAH@Z 1000354a f   spi.obj
+ 0001:00002e62       ?WSPSend@@YGHIPAU_WSABUF@@KPAKKPAU_OVERLAPPED@@P6GXKK2K@ZPAU_WSATHREADID@@PAH@Z 10003e62 f   spi.obj
+ 0001:0000308d       ?WSPSendDisconnect@@YGHIPAU_WSABUF@@PAH@Z 1000408d f   spi.obj
+ 0001:00003150       ?WSPSendTo@@YGHIPAU_WSABUF@@KPAKKPBUsockaddr@@HPAU_OVERLAPPED@@P6GXKK3K@ZPAU_WSATHREADID@@PAH@Z 10004150 f   spi.obj
+ 0001:000033ad       ?WSPSetSockOpt@@YGHIHHPBDHPAH@Z 100043ad f   spi.obj
+ 0001:0000353f       ?WSPShutdown@@YGHIHPAH@Z   1000453f f   spi.obj
+ 0001:00003602       ?WSPStringToAddress@@YGHPAGHPAU_WSAPROTOCOL_INFOW@@PAUsockaddr@@PAH3@Z 10004602 f   spi.obj
+ 0001:00003783       ?WSPSocket@@YGIHHHPAU_WSAPROTOCOL_INFOW@@IKPAH@Z 10004783 f   spi.obj
+ 0001:00003eee       _WSPStartup@76             10004eee f   spi.obj
+ 0001:00004799       ?CopyOffset@@YAXPAU_OVERLAPPED@@0@Z 10005799 f   spi.obj
+ 0001:000047b6       ?CopyBuffer@@YAPAU_WSABUF@@PAU1@K@Z 100057b6 f   spi.obj
+ 0001:0000485d       ?FreeBuffer@@YAXPAU_WSABUF@@@Z 1000585d f   spi.obj
+ 0001:0000487e       ?FreeSocketsAndMemory@@YAXPAH@Z 1000587e f   spi.obj
+ 0001:000049c0       ?ExtTransmitFile@@YGHIPAXKKPAU_OVERLAPPED@@PAU_TRANSMIT_FILE_BUFFERS@@K@Z 100059c0 f   extension.obj
+ 0001:00004ba9       ?ExtAcceptEx@@YGHIIPAXKKKPAKPAU_OVERLAPPED@@@Z 10005ba9 f   extension.obj
+ 0001:00004e5a       ?ExtConnectEx@@YGHIPBUsockaddr@@HPAXKPAKPAU_OVERLAPPED@@@Z 10005e5a f   extension.obj
+ 0001:0000508a       ?ExtTransmitPackets@@YGHIPAU_TRANSMIT_PACKETS_ELEMENT@@KKPAU_OVERLAPPED@@K@Z 1000608a f   extension.obj
+ 0001:0000527d       ?ExtDisconnectEx@@YGHIPAU_OVERLAPPED@@KK@Z 1000627d f   extension.obj
+ 0001:00005458       ?ExtWSARecvMsg@@YGHIPAU_WSAMSG@@PAKPAU_OVERLAPPED@@P6GXKK2K@Z@Z 10006458 f   extension.obj
+ 0001:00005650       ?AllocateFreePool@@YAHXZ   10006650 f   overlap.obj
+ 0001:000056dc       ?InitOverlappedManager@@YAHXZ 100066dc f   overlap.obj
+ 0001:0000585c       ?StopOverlappedManager@@YAHXZ 1000685c f   overlap.obj
+ 0001:0000598a       ?QueueOverlappedOperation@@YAHPAU_WSAOVERLAPPEDPLUS@@PAU_SOCK_INFO@@@Z 1000698a f   overlap.obj
+ 0001:00005a76       ?EnqueueOverlappedOperation@@YAHPAU_WSAOVERLAPPEDPLUS@@@Z 10006a76 f   overlap.obj
+ 0001:00005afa       ?DequeueOverlappedOperation@@YAPAU_WSAOVERLAPPEDPLUS@@XZ 10006afa f   overlap.obj
+ 0001:00005b63       ?ExecuteOverlappedOperation@@YAHPAU_WSAOVERLAPPEDPLUS@@H@Z 10006b63 f   overlap.obj
+ 0001:00006246       ?OverlappedManagerThread@@YGKPAX@Z 10007246 f   overlap.obj
+ 0001:00006348       ?StartOverlappedManager@@YAXXZ 10007348 f   overlap.obj
+ 0001:00006371       ?GetOverlappedStructure@@YAPAU_WSAOVERLAPPEDPLUS@@PAU_SOCK_INFO@@@Z 10007371 f   overlap.obj
+ 0001:00006451       ?PutbackOverlappedStructure@@YAXPAU_WSAOVERLAPPEDPLUS@@@Z 10007451 f   overlap.obj
+ 0001:000064a3       ?SetOverlappedInProgress@@YAXPAU_OVERLAPPED@@@Z 100074a3 f   overlap.obj
+ 0001:000064bb       ?IntermediateCompletionRoutine@@YGXKKPAU_OVERLAPPED@@K@Z 100074bb f   overlap.obj
+ 0001:000067d6       ?CallUserApcProc@@YGXK@Z   100077d6 f   overlap.obj
+ 0001:00006817       ?CheckForContextCleanup@@YAXPAU_WSAOVERLAPPEDPLUS@@@Z 10007817 f   overlap.obj
+ 0001:00006980       ?GetProviders@@YAPAU_WSAPROTOCOL_INFOW@@PAH@Z 10007980 f   provider.obj
+ 0001:00006a06       ?FreeProviders@@YAXPAU_WSAPROTOCOL_INFOW@@@Z 10007a06 f   provider.obj
+ 0001:00006a20       ?FindAndLockSocketContext@@YAPAU_SOCK_INFO@@IPAH@Z 10007a20 f   sockinfo.obj
+ 0001:00006a87       ?UnlockSocketContext@@YAXPAU_SOCK_INFO@@PAH@Z 10007a87 f   sockinfo.obj
+ 0001:00006b6d       ?AcquireSocketLock@@YAXPAU_SOCK_INFO@@@Z 10007b6d f   sockinfo.obj
+ 0001:00006b7f       ?ReleaseSocketLock@@YAXPAU_SOCK_INFO@@@Z 10007b7f f   sockinfo.obj
+ 0001:00006b91       ?CreateSockInfo@@YAPAU_SOCK_INFO@@PAU_PROVIDER@@IPAU1@@Z 10007b91 f   sockinfo.obj
+ 0001:00006c71       ?InsertSocketInfo@@YAXPAU_PROVIDER@@PAU_SOCK_INFO@@@Z 10007c71 f   sockinfo.obj
+ 0001:00006d0a       ?RemoveSocketInfo@@YAXPAU_PROVIDER@@PAU_SOCK_INFO@@@Z 10007d0a f   sockinfo.obj
+ 0001:00006d8b       ?CloseAndFreeSocketInfo@@YAXPAU_PROVIDER@@@Z 10007d8b f   sockinfo.obj
+ 0001:00006e97       ?GetCallerSocket@@YAPAU_SOCK_INFO@@PAU_PROVIDER@@I@Z 10007e97 f   sockinfo.obj
+ 0001:00006f60       ?StopAsyncWindowManager@@YAHXZ 10007f60 f   asyncselect.obj
+ 0001:00006f93       ?GetWorkerWindow@@YAPAUHWND__@@XZ 10007f93 f   asyncselect.obj
+ 0001:000071a8       _LeaveCriticalSection@4    100081a8 f   kernel32:KERNEL32.dll
+ 0001:000071ae       _OutputDebugStringA@4      100081ae f   kernel32:KERNEL32.dll
+ 0001:000071b4       _EnterCriticalSection@4    100081b4 f   kernel32:KERNEL32.dll
+ 0001:000071ba       _GetCurrentProcessId@0     100081ba f   kernel32:KERNEL32.dll
+ 0001:000071c0       _TlsFree@4                 100081c0 f   kernel32:KERNEL32.dll
+ 0001:000071c6       _DeleteCriticalSection@4   100081c6 f   kernel32:KERNEL32.dll
+ 0001:000071cc       _TlsAlloc@0                100081cc f   kernel32:KERNEL32.dll
+ 0001:000071d2       _InitializeCriticalSection@4 100081d2 f   kernel32:KERNEL32.dll
+ 0001:000071d8       _TlsSetValue@8             100081d8 f   kernel32:KERNEL32.dll
+ 0001:000071de       _TlsGetValue@4             100081de f   kernel32:KERNEL32.dll
+ 0001:000071e4       _Sleep@4                   100081e4 f   kernel32:KERNEL32.dll
+ 0001:000071ea       _HeapFree@12               100081ea f   kernel32:KERNEL32.dll
+ 0001:000071f0       _WaitForSingleObject@8     100081f0 f   kernel32:KERNEL32.dll
+ 0001:000071f6       _WideCharToMultiByte@32    100081f6 f   kernel32:KERNEL32.dll
+ 0001:000071fc       _GetProcAddress@8          100081fc f   kernel32:KERNEL32.dll
+ 0001:00007202       _LoadLibraryA@4            10008202 f   kernel32:KERNEL32.dll
+ 0001:00007208       _LoadLibraryW@4            10008208 f   kernel32:KERNEL32.dll
+ 0001:0000720e       _ExpandEnvironmentStringsW@12 1000820e f   kernel32:KERNEL32.dll
+ 0001:00007214       _HeapAlloc@12              10008214 f   kernel32:KERNEL32.dll
+ 0001:0000721a       _GetLastError@0            1000821a f   kernel32:KERNEL32.dll
+ 0001:00007220       _HeapCreate@12             10008220 f   kernel32:KERNEL32.dll
+ 0001:00007226       _HeapDestroy@4             10008226 f   kernel32:KERNEL32.dll
+ 0001:0000722c       _FreeLibrary@4             1000822c f   kernel32:KERNEL32.dll
+ 0001:00007232       _CreateThread@24           10008232 f   kernel32:KERNEL32.dll
+ 0001:00007238       _CreateSemaphoreA@16       10008238 f   kernel32:KERNEL32.dll
+ 0001:0000723e       _GetSystemInfo@4           1000823e f   kernel32:KERNEL32.dll
+ 0001:00007244       _CreateIoCompletionPort@16 10008244 f   kernel32:KERNEL32.dll
+ 0001:0000724a       _CloseHandle@4             1000824a f   kernel32:KERNEL32.dll
+ 0001:00007250       _WaitForMultipleObjectsEx@20 10008250 f   kernel32:KERNEL32.dll
+ 0001:00007256       _PostQueuedCompletionStatus@16 10008256 f   kernel32:KERNEL32.dll
+ 0001:0000725c       _ReleaseSemaphore@12       1000825c f   kernel32:KERNEL32.dll
+ 0001:00007262       _ResetEvent@4              10008262 f   kernel32:KERNEL32.dll
+ 0001:00007268       _WaitForSingleObjectEx@12  10008268 f   kernel32:KERNEL32.dll
+ 0001:0000726e       _ExitThread@4              1000826e f   kernel32:KERNEL32.dll
+ 0001:00007274       _GetQueuedCompletionStatus@20 10008274 f   kernel32:KERNEL32.dll
+ 0001:0000727a       _GlobalAlloc@8             1000827a f   kernel32:KERNEL32.dll
+ 0001:00007280       _GlobalFree@4              10008280 f   kernel32:KERNEL32.dll
+ 0001:00007286       _InterlockedIncrement@4    10008286 f   kernel32:KERNEL32.dll
+ 0001:0000728c       _InterlockedDecrement@4    1000828c f   kernel32:KERNEL32.dll
+ 0001:00007292       _SleepEx@8                 10008292 f   kernel32:KERNEL32.dll
+ 0001:00007298       _WSCGetProviderPath@16     10008298 f   ws2_32:WS2_32.dll
+ 0001:0000729e       _WSASetLastError@4         1000829e f   ws2_32:WS2_32.dll
+ 0001:000072a4       _WSAGetLastError@0         100082a4 f   ws2_32:WS2_32.dll
+ 0001:000072aa       _WPUCompleteOverlappedRequest@20 100082aa f   ws2_32:WS2_32.dll
+ 0001:000072b0       _WSCEnumProtocols@16       100082b0 f   ws2_32:WS2_32.dll
+ 0001:000072b6       _wsprintfA                 100082b6 f   user32:USER32.dll
+ 0001:000072bc       _wvsprintfA@12             100082bc f   user32:USER32.dll
+ 0001:000072c2       _IsWindow@4                100082c2 f   user32:USER32.dll
+ 0001:000072c8       _DestroyWindow@4           100082c8 f   user32:USER32.dll
+ 0001:000072ce       _DispatchMessageA@4        100082ce f   user32:USER32.dll
+ 0001:000072d4       _TranslateMessage@4        100082d4 f   user32:USER32.dll
+ 0001:000072da       _GetMessageA@16            100082da f   user32:USER32.dll
+ 0001:000072e0       _CreateWindowExA@48        100082e0 f   user32:USER32.dll
+ 0001:000072e6       _RegisterClassA@4          100082e6 f   user32:USER32.dll
+ 0001:000072ec       _LoadCursorA@8             100082ec f   user32:USER32.dll
+ 0001:000072f2       _LoadIconA@8               100082f2 f   user32:USER32.dll
+ 0001:000072f8       _DefWindowProcA@16         100082f8 f   user32:USER32.dll
+ 0001:000072fe       _GetStockObject@4          100082fe f   gdi32:GDI32.dll
+ 0001:00007310       __CRT_INIT@12              10008310 f   MSVCRTD:crtdll.obj
+ 0001:00007430       __DllMainCRTStartup@12     10008430 f   MSVCRTD:crtdll.obj
+ 0001:00007530       __alloca_probe             10008530     MSVCRTD:chkstk.obj
+ 0001:00007530       __chkstk                   10008530 f   MSVCRTD:chkstk.obj
+ 0001:0000756e       _memcpy                    1000856e f   MSVCRTD:MSVCR70D.dll
+ 0001:00007574       _memcmp                    10008574 f   MSVCRTD:MSVCR70D.dll
+ 0001:0000757a       _memset                    1000857a f   MSVCRTD:MSVCR70D.dll
+ 0001:00007580       __free_dbg                 10008580 f   MSVCRTD:MSVCR70D.dll
+ 0001:00007586       __initterm                 10008586 f   MSVCRTD:MSVCR70D.dll
+ 0001:00007590       __onexit                   10008590 f   MSVCRTD:atonexit.obj
+ 0001:000075d0       _atexit                    100085d0 f   MSVCRTD:atonexit.obj
+ 0001:000075f0       __RTC_Initialize           100085f0 f   MSVCRTD:initsect.obj
+ 0001:00007670       __RTC_Terminate            10008670 f   MSVCRTD:initsect.obj
+ 0001:000076f0       __malloc_dbg               100086f0 f   MSVCRTD:MSVCR70D.dll
+ 0001:000076f6       ___dllonexit               100086f6 f   MSVCRTD:MSVCR70D.dll
+ 0001:00007700       __except_handler3          10008700 f   MSVCRTD:MSVCR70D.dll
+ 0002:00000000       __imp__GetStockObject@4    10009000     gdi32:GDI32.dll
+ 0002:00000004       \177GDI32_NULL_THUNK_DATA  10009004     gdi32:GDI32.dll
+ 0002:00000008       __imp__EnterCriticalSection@4 10009008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetCurrentProcessId@0 1000900c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__TlsFree@4           10009010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__DeleteCriticalSection@4 10009014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__TlsAlloc@0          10009018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__InitializeCriticalSection@4 1000901c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__TlsSetValue@8       10009020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__TlsGetValue@4       10009024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__Sleep@4             10009028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__HeapFree@12         1000902c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__WaitForSingleObject@8 10009030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__WideCharToMultiByte@32 10009034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetProcAddress@8    10009038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__LoadLibraryA@4      1000903c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__LoadLibraryW@4      10009040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__ExpandEnvironmentStringsW@12 10009044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__HeapAlloc@12        10009048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetLastError@0      1000904c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__HeapCreate@12       10009050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__OutputDebugStringA@4 10009054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__FreeLibrary@4       10009058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__CreateThread@24     1000905c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__CreateSemaphoreA@16 10009060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetSystemInfo@4     10009064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__CreateIoCompletionPort@16 10009068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__CloseHandle@4       1000906c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__WaitForMultipleObjectsEx@20 10009070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__PostQueuedCompletionStatus@16 10009074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__ReleaseSemaphore@12 10009078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__ResetEvent@4        1000907c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__WaitForSingleObjectEx@12 10009080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__ExitThread@4        10009084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__GetQueuedCompletionStatus@20 10009088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__GlobalAlloc@8       1000908c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__GlobalFree@4        10009090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__InterlockedIncrement@4 10009094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__InterlockedDecrement@4 10009098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__SleepEx@8           1000909c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__HeapDestroy@4       100090a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__LeaveCriticalSection@4 100090a4     kernel32:KERNEL32.dll
+ 0002:000000a8       \177KERNEL32_NULL_THUNK_DATA 100090a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp___except_handler3    100090ac     MSVCRTD:MSVCR70D.dll
+ 0002:000000b0       __imp___onexit             100090b0     MSVCRTD:MSVCR70D.dll
+ 0002:000000b4       __imp____dllonexit         100090b4     MSVCRTD:MSVCR70D.dll
+ 0002:000000b8       __imp___free_dbg           100090b8     MSVCRTD:MSVCR70D.dll
+ 0002:000000bc       __imp__memset              100090bc     MSVCRTD:MSVCR70D.dll
+ 0002:000000c0       __imp__memcmp              100090c0     MSVCRTD:MSVCR70D.dll
+ 0002:000000c4       __imp__memcpy              100090c4     MSVCRTD:MSVCR70D.dll
+ 0002:000000c8       __imp___malloc_dbg         100090c8     MSVCRTD:MSVCR70D.dll
+ 0002:000000cc       __imp___adjust_fdiv        100090cc     MSVCRTD:MSVCR70D.dll
+ 0002:000000d0       __imp___initterm           100090d0     MSVCRTD:MSVCR70D.dll
+ 0002:000000d4       \177MSVCR70D_NULL_THUNK_DATA 100090d4     MSVCRTD:MSVCR70D.dll
+ 0002:000000d8       __imp__CreateWindowExA@48  100090d8     user32:USER32.dll
+ 0002:000000dc       __imp__GetMessageA@16      100090dc     user32:USER32.dll
+ 0002:000000e0       __imp__LoadCursorA@8       100090e0     user32:USER32.dll
+ 0002:000000e4       __imp__LoadIconA@8         100090e4     user32:USER32.dll
+ 0002:000000e8       __imp__DefWindowProcA@16   100090e8     user32:USER32.dll
+ 0002:000000ec       __imp__TranslateMessage@4  100090ec     user32:USER32.dll
+ 0002:000000f0       __imp__DispatchMessageA@4  100090f0     user32:USER32.dll
+ 0002:000000f4       __imp__DestroyWindow@4     100090f4     user32:USER32.dll
+ 0002:000000f8       __imp__IsWindow@4          100090f8     user32:USER32.dll
+ 0002:000000fc       __imp__wvsprintfA@12       100090fc     user32:USER32.dll
+ 0002:00000100       __imp__wsprintfA           10009100     user32:USER32.dll
+ 0002:00000104       __imp__RegisterClassA@4    10009104     user32:USER32.dll
+ 0002:00000108       \177USER32_NULL_THUNK_DATA 10009108     user32:USER32.dll
+ 0002:0000010c       __imp__WSASetLastError@4   1000910c     ws2_32:WS2_32.dll
+ 0002:00000110       __imp__WSCEnumProtocols@16 10009110     ws2_32:WS2_32.dll
+ 0002:00000114       __imp__WPUCompleteOverlappedRequest@20 10009114     ws2_32:WS2_32.dll
+ 0002:00000118       __imp__WSAGetLastError@0   10009118     ws2_32:WS2_32.dll
+ 0002:0000011c       __imp__WSCGetProviderPath@16 1000911c     ws2_32:WS2_32.dll
+ 0002:00000120       \177WS2_32_NULL_THUNK_DATA 10009120     ws2_32:WS2_32.dll
+ 0002:0000014c       ??_C@_08EIBOPINA@crtdll?4c?$AA@ 1000914c     MSVCRTD:crtdll.obj
+ 0002:000001f8       ___rtc_iaa                 100091f8     MSVCRTD:initsect.obj
+ 0002:000001fc       ___rtc_izz                 100091fc     MSVCRTD:initsect.obj
+ 0002:00000200       ___rtc_taa                 10009200     MSVCRTD:initsect.obj
+ 0002:00000204       ___rtc_tzz                 10009204     MSVCRTD:initsect.obj
+ 0002:00000208       __IMPORT_DESCRIPTOR_KERNEL32 10009208     kernel32:KERNEL32.dll
+ 0002:0000021c       __IMPORT_DESCRIPTOR_WS2_32 1000921c     ws2_32:WS2_32.dll
+ 0002:00000230       __IMPORT_DESCRIPTOR_USER32 10009230     user32:USER32.dll
+ 0002:00000244       __IMPORT_DESCRIPTOR_GDI32  10009244     gdi32:GDI32.dll
+ 0002:00000258       __IMPORT_DESCRIPTOR_MSVCR70D 10009258     MSVCRTD:MSVCR70D.dll
+ 0002:0000026c       __NULL_IMPORT_DESCRIPTOR   1000926c     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    1000a000     MSVCRTD:cinitexe.obj
+ 0003:00000004       ___xc_z                    1000a004     MSVCRTD:cinitexe.obj
+ 0003:00000008       ___xi_a                    1000a008     MSVCRTD:cinitexe.obj
+ 0003:0000000c       ___xi_z                    1000a00c     MSVCRTD:cinitexe.obj
+ 0003:00000e58       ?gdwThreadCount@@3KA       1000ae58     overlap.obj
+ 0003:00001410       ?ProviderGuid@@3U_GUID@@A  1000b410     provider.obj
+ 0003:000018f4       ?gOverlappedCS@@3U_RTL_CRITICAL_SECTION@@A 1000b8f4     spi.obj
+ 0003:00001988       ?gCriticalSection@@3U_RTL_CRITICAL_SECTION@@A 1000b988     spi.obj
+ 0003:00001ba0       ?gDebugCritSec@@3U_RTL_CRITICAL_SECTION@@A 1000bba0     spi.obj
+ 0003:00001bb8       ?MainUpCallTable@@3U_WSPUPCALLTABLE@@A 1000bbb8     spi.obj
+ 0003:00001bf4       ?hDllInstance@@3PAUHINSTANCE__@@A 1000bbf4     spi.obj
+ 0003:00001bf8       ?gBaseInfo@@3PAU_PROVIDER@@A 1000bbf8     spi.obj
+ 0003:00001bfc       ?gLayerCount@@3HA          1000bbfc     spi.obj
+ 0003:00001c00       ?hLspHeap@@3PAXA           1000bc00     spi.obj
+ 0003:00001c18       ?FreePool@@3PAU_WSAOVERLAPPEDPLUS@@A 1000bc18     overlap.obj
+ 0003:00001c1c       ?PendingStart@@3PAU_WSAOVERLAPPEDPLUS@@A 1000bc1c     overlap.obj
+ 0003:00001c20       ?PendingEnd@@3PAU_WSAOVERLAPPEDPLUS@@A 1000bc20     overlap.obj
+ 0003:00001c24       ?OverlappedPool@@3PAU_WSAOVERLAPPEDPLUS@@A 1000bc24     overlap.obj
+ 0003:00001c28       ?gWorkerThread@@3PAPAXA    1000bc28     overlap.obj
+ 0003:00001ca8       ?ghWakeupSemaphore@@3PAXA  1000bca8     overlap.obj
+ 0003:00001cac       ?ghIocp@@3PAXA             1000bcac     overlap.obj
+ 0003:00001cbc       __adjust_fdiv              1000bcbc     <common>
+ 0003:00001cc0       ___onexitend               1000bcc0     <common>
+ 0003:00001cc4       ___onexitbegin             1000bcc4     <common>
+ 0003:00001cc8       __pRawDllMain              1000bcc8     <common>
+
+ entry point at        0001:00007430
+
+ Static symbols
+
+ 0001:00007012       ?AsyncMsgHandler@@YGKPAX@Z 10008012 f   asyncselect.obj
+ 0001:00007145       ?AsyncWndProc@@YGJPAUHWND__@@IIJ@Z 10008145 f   asyncselect.obj

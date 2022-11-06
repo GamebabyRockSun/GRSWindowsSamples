@@ -1,0 +1,58 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #C2DAF1;
+}
+body,td,th {
+	font-size: 14px;
+	color: #333333;
+}
+.table1 {
+	font-size: 14px;
+	line-height: 180%;
+	color: #333333;
+	border: 1px solid #BBD5EE;
+}
+.table2 {
+	font-size: 14px;
+	line-height: 180%;
+	color: #333333;
+}
+.FontTitle {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+a:link {
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #FFFF00;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #FFFF00;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #FF6600;
+}
+a:active {
+		font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #FFFF00;
+	text-decoration: none;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data">
+  <!-- AttributeType name="xmlns" -->
+  <ElementType name="Title"/>
+  <ElementType name="Author"/>
+  <ElementType name="Publisher"/>
+  <ElementType name="Book" model="closed">
+    <element type="Title"/>
+    <element type="Author"/>
+    <element type="Publisher"/>
+  </ElementType>
+  <ElementType name="Collection" model="closed">
+    <element type="Book"/>
+  </ElementType>
+</Schema>

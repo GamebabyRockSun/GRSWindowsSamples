@@ -1,0 +1,4 @@
+LIBRARY	"DLLShareSection"
+EXPORTS
+	WriteData	@1
+	ReadData	@2

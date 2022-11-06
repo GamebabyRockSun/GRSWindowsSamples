@@ -1,0 +1,4 @@
+LIBRARY	"DLLTls"
+EXPORTS
+	GetThreadBuf
+	GetThreadBufSize

@@ -1,0 +1,22 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Class">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Teacher">
+          <xsd:complexType>
+            <xsd:sequence/>
+            <xsd:attribute name="Name" type="xsd:string" use="required"/>
+            <xsd:attribute name="Age" type="xsd:int" default="25"/>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Student" maxOccurs="5">
+          <xsd:complexType>
+            <xsd:sequence/>
+            <xsd:attribute name="Name" type="xsd:string" use="required"/>
+            <xsd:attribute name="Age" type="xsd:int" default="18"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

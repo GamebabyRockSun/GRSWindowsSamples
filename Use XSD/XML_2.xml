@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Class>
+	<Teacher Name="张一" Age="31"/>
+	<Student Name="吴七" Age="18"/>
+	<Student Name="赵六" Age="17"/>
+	<Student Name="王五" Age="19"/>
+	<Student Name="钱三" Age="17"/>
+	<Student Name="李四" Age="17"/>
+</Class>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LSP", "LSP.vcproj", "{A2AE2BB0-AC48-4BA6-A6F3-37D46922CC47}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LSPSetup", "..\LSPSetup\LSPSetup.vcproj", "{53D385A7-C3CC-4C15-96FA-B884FA03B55F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2AE2BB0-AC48-4BA6-A6F3-37D46922CC47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2AE2BB0-AC48-4BA6-A6F3-37D46922CC47}.Debug|Win32.Build.0 = Debug|Win32
+		{A2AE2BB0-AC48-4BA6-A6F3-37D46922CC47}.Release|Win32.ActiveCfg = Release|Win32
+		{A2AE2BB0-AC48-4BA6-A6F3-37D46922CC47}.Release|Win32.Build.0 = Release|Win32
+		{53D385A7-C3CC-4C15-96FA-B884FA03B55F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53D385A7-C3CC-4C15-96FA-B884FA03B55F}.Debug|Win32.Build.0 = Debug|Win32
+		{53D385A7-C3CC-4C15-96FA-B884FA03B55F}.Release|Win32.ActiveCfg = Release|Win32
+		{53D385A7-C3CC-4C15-96FA-B884FA03B55F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

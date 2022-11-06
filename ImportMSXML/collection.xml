@@ -1,0 +1,8 @@
+<?xml version='1.0'?>
+<Collection xmlns="x-schema:books">
+  <Book>
+    <Title>Lover Birds</Title>
+    <Author>Cynthia Randall</Author>
+    <Publisher>Lucerne Publishing</Publisher>
+  </Book>
+</Collection>

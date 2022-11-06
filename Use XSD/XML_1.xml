@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<Class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="test.xsd">
+	<Teacher Name="张一" Age="31"/>
+	<Student Name="吴七" Age="18"/>
+	<Student Name="赵六" Age="17"/>
+	<Student Name="王五" Age="19"/>
+	<Student Name="钱三" Age="17"/>
+</Class>
