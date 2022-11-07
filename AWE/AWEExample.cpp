@@ -16,7 +16,7 @@ void _cdecl main()
 	ULONG_PTR *aPFNs2;               // page info; holds opaque data
 	PVOID lpMemReserved;            // AWE window
 	SYSTEM_INFO sSysInfo;           // useful system information
-	int PFNArraySize;               // memory to request for PFN array
+	size_t PFNArraySize;               // memory to request for PFN array
 	TCHAR* pszData;
 	TCHAR  pszReadData[100];
 

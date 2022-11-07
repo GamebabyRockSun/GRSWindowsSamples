@@ -123,11 +123,35 @@ CString FormatMemInfo(MEMORY_BASIC_INFORMATION &mi)
 		strType = _T("-      ");
 	}
 
+	CString strSize;
+	strSize.Format(_T("%8u%s")
+		, ( mi.RegionSize > 1099511627776u ? mi.RegionSize / 1099511627776u 
+			: ( mi.RegionSize > 1073741824u ? mi.RegionSize / 1073741824u 
+			: ( mi.RegionSize > 1048576u ? mi.RegionSize / 1048576u
+			: ( mi.RegionSize > 1024u ? mi.RegionSize / 1024u : mi.RegionSize) 
+			  ) 
+			) 
+		   )
+		, ( mi.RegionSize > 1099511627776u ? _T("TB")
+			: ( mi.RegionSize > 1073741824u ? _T("GB")
+			: ( mi.RegionSize > 1048576u ? _T("MB")
+				: ( mi.RegionSize > 1024u ? _T("KB") : _T("B ") 
+					) 
+				) 
+			) 
+		)
+	);
+
 	CString strRet;
-	strRet.Format(_T("%8X  %8X	%8X	  %10uKB	%12s  %7s  %8s  %7s"), mi.BaseAddress, mi.AllocationBase
-		, (DWORD)mi.AllocationBase + (DWORD)mi.RegionSize
-		, (DWORD)mi.RegionSize/1024
-		, strAllocProtect, strState, strProtect, strType);
+	strRet.Format(_T("0x%p  0x%p  0x%p  %12s  %12s  %8s  %10s  %8s")
+		, mi.BaseAddress
+		, mi.AllocationBase
+		, (BYTE*)mi.AllocationBase + mi.RegionSize
+		, strSize
+		, strAllocProtect
+		, strState
+		, strProtect
+		, strType);
 
 	return strRet;
 }
@@ -144,7 +168,7 @@ int _tmain()
 	VOID* pPtr = pLowerBound;
 	VOID* pOldPtr = pPtr;
 
-	_putts(_T("BaseAddress  AllocBase	EndAddress		  SIZE  AllocProtect  State  CurProtect  TYPE"));
+	_putts(_T("  BaseAddress         AllocBase           EndAddress     SIZE            AllocProtect   State     CurProtect  TYPE"));
 	while( pPtr <= pUpperBound)
 	{
 		if( VirtualQuery((void*)pPtr, &mi, sizeof(mi)) == 0 )

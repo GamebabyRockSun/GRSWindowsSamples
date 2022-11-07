@@ -7,7 +7,7 @@ struct BYTE1
 	char ch1;
 	int	i1;
 };
-#pragma push()
+#pragma pack(push)
 #pragma pack(1)
 #pragma pack(show)
 struct BYTE2
@@ -15,7 +15,7 @@ struct BYTE2
 	char ch2;
 	int	i2;
 };
-#pragma pop()
+#pragma pack(pop)
 
 struct __declspec(align(1)) BYTE3
 {

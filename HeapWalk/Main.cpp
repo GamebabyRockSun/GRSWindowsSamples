@@ -69,7 +69,7 @@ int _tmain()
 void DisplayHeapsInfo(std::ostream& out) 
 {     
 	std::vector<HANDLE> heaps(GetProcessHeaps(0, NULL));
-	GetProcessHeaps(heaps.size(), &heaps[0]); 
+	GetProcessHeaps((DWORD)heaps.size(), &heaps[0]); 
 	DWORD totalBytes = 0;
 	for(DWORD i = 0; i < heaps.size(); ++i) 
 	{

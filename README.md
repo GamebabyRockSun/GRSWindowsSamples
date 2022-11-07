@@ -15,7 +15,15 @@
 
 &emsp;&emsp;本套代码一共212个示例，被按顺序分成了 29 个部分，并且全部按照双字母排序进行了项目命名，使用VS2022打开后，切换到解决方案资源管理器后就可以看到 29 个部分及相关示例。每个示例都做了最简化处理，仅展示本范围内的一个主题，并且没有引用任何第三方库或类，所有的示例几乎都是 C风格的代码，方便各位学习和掌握。代码大部分都参考了 MSDN 本身的示例，但是做了相应的修改和简化，为了使更好的掌握这些基本功能。
 
+&emsp;&emsp;另外这套代码的顺序是刻意安排的，也是一般游戏引擎或别的库封装时需要考虑的模块设计问题的属性，即从内存管理这个最基本的模块开始，再考虑需要支持的字符集、然后才是多进程、多线程、线程同步、文件管理等等模块，所以在引擎设计时也是非常不错的参考。
+
+&emsp;&emsp;当然所有200多个项目堆在一起，VS2022已经不堪重负了，运行经常会卡壳，所以需要编译调试运行的网友，建议单独复制每章的代码独立做成轻量的解决方案，或者自行改成 CMake 形式也行。
+
 &emsp;&emsp;There are 212 examples in this code, divided into 29 parts in order, and all of them are named in double-alphabetical order. After opening with VS2022, you can see the 29 parts and related examples when you switch to Solution Explorer. Each example has been simplified to show only one topic in this scope and does not reference any third party libraries or classes. All of the examples are almost C-style code for easy learning and mastery. Most of the code references MSDN's own examples, but has been modified and simplified in order to better grasp these basic functions.
+
+&emsp;&emsp;Another this code sequence is arranged painstakingly, is also a general game engine or other library encapsulation module design issues to consider when properties, namely from the most basic memory management module, consider needs to support character sets, and then the multi-process, multithreading, thread synchronization, file management, and so on module, so the engine is also a very good reference in design.
+
+&emsp;&emsp;Of course, with more than 200 projects piled together, VS2022 has been overwhelmed, and the operation will often jam, so users who need to compile and debug the operation, suggest that the code of each chapter be copied separately to make a lightweight solution, or change to CMake form.
 
 # 4、重要提示（Important note）
 
